@@ -22,9 +22,15 @@ img {
     display: block;
     height: auto;
     margin: 0 auto;
-    border-radius: 100px;
+    border-radius: 15px 50px;
     }
 #tribute-info {
 font-size: large;
 }
  
+@media (min-width:800px) {}
+.grid-container {
+    display: grid;
+    grid: 150px / auto auto auto;
+  }
+}
