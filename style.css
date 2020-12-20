@@ -18,7 +18,7 @@ animation-iteration-count: infinite;
 animation-direction: alternate;
 }
 img {
-    max-width: 10%;
+    max-width: 250px;
     display: block;
     height: auto;
     margin: 0 auto;
@@ -28,9 +28,9 @@ img {
 font-size: large;
 }
  
-@media (min-width:800px) {}
+@media (min-width:800px) {
 .grid-container {
     display: grid;
-    grid: 150px / auto auto auto;
+    grid: auto auto auto auto;
   }
 }
