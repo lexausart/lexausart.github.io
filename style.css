@@ -54,7 +54,8 @@ div {
 @media (min-width:600px) {
   .grid-container-two {
     display: grid;
-    grid: 65px/ auto auto;
-    padding: 15px 25px 0px 25px;
+    grid-template-columns: auto auto;
+    padding: 15px 25px 20px 25px;
+position:relative;
   }
 }
