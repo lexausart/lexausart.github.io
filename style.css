@@ -1,8 +1,7 @@
 body {
-  padding: 50px;
+  padding: 10px;
   text-align:left;
-  background-color:bisque;
-
+  background-color:rgb(255, 215, 162);
   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
 
@@ -63,12 +62,16 @@ animation-direction: alternate;
   background: rgba(255, 254, 218, 0.6)
 }
 
+#projects {
+  padding: 140px 0;
+}
+
 span {
   color: black;
 }
 
 #body {
-  padding: 50px;
+  padding: 10px;
 }
 
 #contact-link {
@@ -77,9 +80,11 @@ span {
 
 
 a {
-    text-decoration-style: dotted;
-    text-decoration-color: cadetblue;
     color:black;
+    text-decoration: none;
+    background-color: rgba(255, 254, 218);
+    border-radius: 12px;
+    padding: 10px 22px;
 }
 
 a:hover {
