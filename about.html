@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bisaya Island - A Lexa.Us Project</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body id="myPage">
+
+    <!-- Sidebar on click -->
+    <nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2"
+        id="mySidebar">
+        <a href="javascript:void(0)" onclick="w3_close()"
+            class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+            <i class="fa fa-remove"></i>
+        </a>
+        <a href="#" class="w3-bar-item w3-button">Link 1</a>
+        <a href="#" class="w3-bar-item w3-button">Link 2</a>
+        <a href="#" class="w3-bar-item w3-button">Link 3</a>
+        <a href="#" class="w3-bar-item w3-button">Link 4</a>
+        <a href="#" class="w3-bar-item w3-button">Link 5</a>
+    </nav>
+
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-theme-d2 w3-left-align">
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2"
+                href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+            <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Home</a>
+            <a href="#bisayaisland" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Bisaya Island</a>
+            <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Characters</a>
+            <a href="#pricing" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Lore</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">OOC</a>
+            <div class="w3-dropdown-hover w3-hide-small">
+                <button class="w3-button" title="Notifications">Dropdown <i class="fa fa-caret-down"></i></button>
+                <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+                    <a href="#" class="w3-bar-item w3-button">Link</a>
+                    <a href="#" class="w3-bar-item w3-button">Link</a>
+                    <a href="#" class="w3-bar-item w3-button">Link</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+            <a href="#bisayaisland" class="w3-bar-item w3-button">Bisaya Island</a>
+            <a href="#team" class="w3-bar-item w3-button">Characters</a>
+            <a href="#pricing" class="w3-bar-item w3-button">Lore</a>
+            <a href="#contact" class="w3-bar-item w3-button">OOC</a>
+        </div>
+    </div>
+
+    <!-- Image Header -->
+    <div class="w3-display-container w3-animate-opacity">
+        <img src="https://imgur.com/sWo95ap.jpg" alt="Island Friends" style="width:100%;">
+        <div class="w3-container w3-display-bottomleft w3-margin-bottom">
+            <button onclick="document.getElementById('id01').style.display='block'"
+                class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Go To W3.CSS">A FFXIV "Carrd"</button>
+        </div>
+    </div>
+
+    <!-- Bisaya Island Row -->
+    <div class="w3-row-padding w3-padding-64 w3-theme-l1" id="bisayaisland">
+
+        <div class="w3-quarter">
+            <h2>Bisaya Island</h2>
+            <p>The island houses a giant Dalakit tree, similar to strangling figs</p>
+            <p>It's a dwelling space for nature spirits and supernatural creatures.</p>
+            <p>Physically, the entrance to Bisaya Island is located in the Far East.</p>
+            <p>However, Bisaya Island thrives in a world parallel to The Source.</p>
+            <p>You won't find species like Hyurs or Miqo'te here.</p>
+            <p>Instead, you'll find...</p>
+        </div>
+
+        <div class="w3-quarter">
+            <div class="w3-card w3-white">
+                <img src="https://imgur.com/lnml3KR.gif" alt="Civets" style="width:100%">
+                <div class="w3-container">
+                    <h3>Civets</h3>
+                    <p></p>
+                    <p>It's easy to confuse a civet with a Miqo'te.</p>
+                    <p>Civets are very lean and nimble.</p>
+                    <p>A certain scent radiates from them, but it's up to the person if it's a fragrance or stench.</p>
+                    <p>Coffee cherries and sweets can be their favorite food.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-quarter">
+            <div class="w3-card w3-white">
+                <img src="https://imgur.com/NDadBrB.gif" alt="Tamawo" style="width:100%">
+                <div class="w3-container">
+                    <h3>Tamawo</h3>
+                    <p>These are similar beings to Moogles or fairies.</p>
+                    <p>They can shapeshift and turn invisible.</p>
+                    <p>Depending on the tamawo's mood, you may find flowers or rocks being thrown at you.</p>
+                    <p>If somebody makes a tamawo upset, the person can get very sick.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-quarter">
+            <div class="w3-card w3-white">
+                <img src="/w3images/mountains.jpg" alt="Aswang" style="width:100%">
+                <div class="w3-container">
+                    <h3>Aswang</h3>
+                    <p>Like voidsent, an aswangs favorite meal is aether.</p>
+                    <p>Looking into their mouths, you may find a red thread in place of their tongue.</p>
+                    <p>They can separate from their torsos and fly around.</p>
+                    <p>Gifted in magic, an aswang can create magic oils with properties that may cause someone to fly.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Characters Container -->
+    <div class="w3-container w3-padding-64 w3-center" id="team">
+        <h2>Characters</h2>
+        <p>As the Dalakit tree of Bisaya Island began to rot, a group of individuals traveled to the Source to find a
+            cure.</p>
+
+        <div class="w3-row"><br>
+
+            <div class="w3-quarter">
+                <img src="https://imgur.com/GwS7JGW.gif" alt="Tang" style="width:45%"
+                    class="w3-circle w3-hover-opacity">
+                <h3>Tang Moon</h3>
+                <p>An affable civet whose good will seems to have strings attached.</p>
+                <p><a href="https://nft.lexa.us">Click here for her "Carrd"!</a></p>
+            </div>
+
+            <div class="w3-quarter">
+                <img src="https://imgur.com/QkmZoZz.gif" alt="Sunny" style="width:45%"
+                    class="w3-circle w3-hover-opacity">
+                <h3>Sanzang Sun</h3>
+                <p>Also known as Sunny.</p>
+                <p>A sheltered tamawo who hates bullying.</p>
+                <p>She is Tang's little sister!</p>
+                <p><a href="https://ffxiv.lexa.us">Click here for her "Carrd"!</a></p>
+            </div>
+
+            <div class="w3-quarter">
+                <img src="https://imgur.com/NNCzBLY.gif" alt="Tian" style="width:45%"
+                    class="w3-circle w3-hover-opacity">
+                <h3>Tian Peng</h3>
+                <p>A tamawo who is naturally mischievous and trying to set her son up on dates.</p>
+                <p>She's Sunny's best friend!</p>
+            </div>
+
+            <div class="w3-quarter">
+                <img src="/w3images/avatar.jpg" alt="Tuna" style="width:45%" class="w3-circle w3-hover-opacity">
+                <h3>Fortunata Peng</h3>
+                <p>Also known as Tuna.</p>
+                <p>An aswang who chooses to make an honest living by selling bath and beauty products.</p>
+                <p>She's Tian's wife!</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Pricing Row -->
+    <div class="w3-row-padding w3-center w3-padding-64" id="pricing">
+        <h2>Lore</h2>
+        <p>Under construction</p><br>
+    </div>
+
+    <!-- Contact Container -->
+    <div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
+        <div class="w3-row">
+            <div class="w3-col m5">
+                <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">OOC</span></div>
+                <h3>Hi, I'm Lexa!</h3>
+                <p>I operate in the EST timezone.</p>
+                <p>My characters are inspired by Philippine mythologies, specifically Bisaya!</p>
+                <p>Discord: lexa.us</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Image of location/map -->
+    <!--
+    <img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%;">
+    -->
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+        <h4>Follow Me!</h4>
+        <a class="w3-button w3-large w3-teal" href="https://www.facebook.com/lexausart/" title="Facebook"><i
+                class="fa fa-facebook"></i></a>
+        <a class="w3-button w3-large w3-teal" href="https://twitter.com/lexausart" title="Twitter"><i
+                class="fa fa-twitter"></i></a>
+        <a class="w3-button w3-large w3-teal" href="https://www.instagram.com/lexausart/" title="Instagram"><i
+                class="fa fa-instagram"></i></a>
+
+        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+
+        <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+            <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>
+            <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+                    <i class="fa fa-chevron-circle-up"></i></span></a>
+        </div>
+    </footer>
+
+    <script>
+        // Script for side navigation
+        function w3_open() {
+            var x = document.getElementById("mySidebar");
+            x.style.width = "300px";
+            x.style.paddingTop = "10%";
+            x.style.display = "block";
+        }
+
+        // Close side navigation
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+
+        // Used to toggle the menu on smaller screens when clicking on the menu button
+        function openNav() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
+
+</body>
+
+</html>
