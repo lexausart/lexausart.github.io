@@ -1,219 +1,415 @@
-<!DOCTYPE html>
-<html>
-
+<!doctype html>
+<html lang="en">
 <head>
-    <title>Bisaya Island - A Lexa.Us Project</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://lexa.us" />
+    <meta property="og:title" content="Bisaya Island" />
+    <meta property="og:description" content="A Boxer Codex-inspired chronicle for Bisaya Island, including lore notes on ginhawa & aether and bios for Tang & Sunny." />
+    <meta property="og:image" content="https://imgur.com/41blKen.gif" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bisaya Island | A Brief Account</title>
+  <meta name="description" content="A Boxer Codex-inspired chronicle for Bisaya Island, including lore notes on ginhawa & aether and bios for Tang & Sunny." />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
-<body id="myPage">
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
 
+  <!-- Topbar -->
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <a class="brand" href="#top" aria-label="Bisaya Island Home">
+        <span class="brand__mark" aria-hidden="true">🏝️</span>
+        <span class="brand__text">
+          <span class="brand__name">Bisaya Island</span>
+          <span class="brand__tag">FFXIV RP (a Lexa.Us project)</span>
+        </span>
+      </a>
 
-    <!-- Navbar -->
-    <div class="w3-top">
-        <div class="w3-bar w3-theme-d2 w3-left-align">
-            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2"
-                href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
-            <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Home</a>
-            <a href="#bisayaisland" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Bisaya Island</a>
-            <a href="#characters" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Characters</a>
-            <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">OOC</a>
-        </div>
+      <nav class="nav" aria-label="Primary">
+        <a href="#residents">Notable Residents</a>
+        <a href="#customs">Customs</a>
+        <a href="#ginhawa">Ginhawa</a>
+        <a href="#bios">Persons</a>
+        <a class="btn btn--ghost" href="#hooks">Hooks</a>
+      </nav>
     </div>
+  </header>
 
-    <!-- Navbar on small screens -->
-    <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
-        <a href="#bisayaisland" class="w3-bar-item w3-button">Bisaya Island</a>
-        <a href="#characters" class="w3-bar-item w3-button">Characters</a>
-        <a href="#contact" class="w3-bar-item w3-button">OOC</a>
-    </div>
-    </div>
+  <!-- Hero -->
+  <section id="top" class="hero" aria-label="Bisaya Island hero">
 
-    <!-- Image Header -->
-    <div class="w3-display-container w3-animate-opacity">
-        <img src="https://imgur.com/YIOlE0k.gif" alt="Island Friends" style="width:100%;">
-        <div class="w3-container w3-display-bottomleft w3-margin-bottom">
-            <button onclick="document.getElementById('id01').style.display='block'"
-                class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Go To W3.CSS">FFXIV Original
-                Characters</button>
-        </div>
-    </div>
+    <!-- Tangy Gif -->
+    <img src="https://imgur.com/41blKen.gif" style="width:100%">
+        
+    <div class="container hero__grid">
+      <div class="hero__content">
+        <p class="pill">Located near the Ruby Sea</p>
 
-    <!-- Bisaya Island Row -->
-    <div class="w3-row-padding w3-padding-64 w3-theme-l1" id="bisayaisland">
+        <h1>
+          A Brief Account of <span class="accent">Bisaya Island</span>:
+          a spiritual tropical place where two lovely civets came from.
+        </h1>
 
-        <div class="w3-quarter">
-            <h2>Bisaya Island</h2>
-            <p>Bisaya Island is a remote island near the Ruby Sea.</p>
-            <p>The island houses a giant Dalakit tree, similar to strangling figs.</p>
-            <p>It's a dwelling space for nature spirits and supernatural creatures.</p>
-            <p>You won't find species like Hyurs or Miqo'te here.</p>
-            <p>Instead, you'll find...</p>
-        </div>
-
-        <div class="w3-quarter">
-            <div class="w3-card w3-white">
-                <img src="https://imgur.com/WNIP9Px.gif" alt="Civets" style="width:100%">
-                <div class="w3-container">
-                    <h3>Civets</h3>
-                    <p></p>
-                    <p>It's easy to confuse a civet with a Miqo'te.</p>
-                    <p>Civets are very lean and nimble.</p>
-                    <p>A certain scent radiates from them, but it's up to the person if it's a fragrance or stench.</p>
-                    <p>Coffee cherries and sweets can be their favorite food.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="w3-quarter">
-            <div class="w3-card w3-white">
-                <img src="https://imgur.com/NDadBrB.gif" alt="Tamawo" style="width:100%">
-                <div class="w3-container">
-                    <h3>Tamawo</h3>
-                    <p>These are similar beings to Moogles or fairies.</p>
-                    <p>They can shapeshift and turn invisible.</p>
-                    <p>Depending on the tamawo's mood, you may find flowers or rocks being thrown at you.</p>
-                    <p>If somebody makes a tamawo upset, the person can get very sick.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="w3-quarter">
-            <div class="w3-card w3-white">
-                <img src="https://imgur.com/BphhWVc.gif" alt="Aswang" style="width:100%">
-                <div class="w3-container">
-                    <h3>Aswang</h3>
-                    <p>Like voidsent, an aswangs favorite meal is aether.</p>
-                    <p>Looking into their mouths, you may find a red thread in place of their tongue.</p>
-                    <p>They can separate from their torsos and fly around.</p>
-                    <p>Gifted in magic, an aswang can create magic oils with properties that may cause someone to fly.
-                    </p>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <!-- Characters Container -->
-    <div class="w3-container w3-padding-64 w3-center" id="characters">
-        <h2>Characters</h2>
-        <p>As the Dalakit tree of Bisaya Island began to rot, a group of individuals traveled to Eorzea to find a
-            cure.</p>
-
-        <div class="w3-row"><br>
-
-            <div class="w3-quarter">
-                <img src="https://imgur.com/GwS7JGW.gif" alt="Tang" style="width:45%"
-                    class="w3-circle w3-hover-opacity">
-                <h3>Tang Moon</h3>
-                <p>An affable civet whose good will seems to have strings attached.</p>
-                <p><a href="https://sari.lexa.us">Click here for her Sari-Sari Store!</a></p>
-                <p><a href="https://tang.lexa.us">Click here for her site!</a></p>
-            </div>
-
-            <div class="w3-quarter">
-                <img src="https://imgur.com/QkmZoZz.gif" alt="Sunny" style="width:45%"
-                    class="w3-circle w3-hover-opacity">
-                <h3>Sanzang Sun</h3>
-                <p>Also known as Sunny.</p>
-                <p>A sheltered tamawo who hates bullying.</p>
-                <p>She is Tang's little sister!</p>
-                <p><a href="https://sun.lexa.us">Click here for her site!</a></p>
-            </div>
-
-            <div class="w3-quarter">
-                <img src="https://imgur.com/NNCzBLY.gif" alt="Tian" style="width:45%"
-                    class="w3-circle w3-hover-opacity">
-                <h3>Tian Peng</h3>
-                <p>A tamawo who is naturally mischievous and trying to set her son up on dates.</p>
-                <p>She's Sunny's best friend!</p>
-            </div>
-
-            <div class="w3-quarter">
-                <img src="https://imgur.com/BphhWVc.gif" alt="Tuna" style="width:45%"
-                    class="w3-circle w3-hover-opacity">
-                <h3>Fortunata Peng</h3>
-                <p>Also known as Tuna.</p>
-                <p>An aswang who chooses to make an honest living by selling bath and beauty products.</p>
-                <p>She's Tian's wife!</p>
-            </div>
-
-        </div>
-    </div>
-
-
-    <!-- OOC Container -->
-    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
-        <h2 class="w3-wide w3-center">OOC</h2>
-        <p class="w3-opacity w3-center"><i>Hi! You can call me Tang, Sunny, or Lexa!</i></p>
-
-        <p>I operate in the EST timezone. Looking for comedy, whimsical, and/or slice-of-life RP!</p>
-
-        <p>While I'm 21+, I prefer that my RP is PG-13.</p>
-
-        <p>My characters are inspired by Philippine mythologies, specifically Hiligaynon!</p>
-
-        <p>Discord: lexa.us</p>
-
-        <hr>
-
-        <p>For my fighting game art, visit <a href="https://saltamiya.com">saltamiya.com</a> or follow me @saltamiya!
+        <p class="lead">
+          A pre-colonial Philippine mythologies inspired FFXIV land and original characters.
         </p>
-    </div>
 
-    <!-- Image of location/map -->
-    <!--
-    <img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%;">
-    -->
-
-    <!-- Footer -->
-    <footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
-        <h4>Follow Me!</h4>
-        <a class="w3-button w3-large w3-teal" href="https://www.facebook.com/lexausart/" title="Facebook"><i
-                class="fa fa-facebook"></i></a>
-        <a class="w3-button w3-large w3-teal" href="https://twitter.com/lexausart" title="Twitter"><i
-                class="fa fa-twitter"></i></a>
-        <a class="w3-button w3-large w3-teal" href="https://www.instagram.com/lexausart/" title="Instagram"><i
-                class="fa fa-instagram"></i></a>
-
-        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-
-        <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
-            <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>
-            <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
-                    <i class="fa fa-chevron-circle-up"></i></span></a>
+        <div class="hero__cta">
+          <a class="btn" href="#bios">Consult the locals</a>
+          <a class="btn btn--ghost" href="#hooks">OOC</a>
         </div>
-    </footer>
 
-    <script>
-        // Script for side navigation
-        function w3_open() {
-            var x = document.getElementById("mySidebar");
-            x.style.width = "300px";
-            x.style.paddingTop = "10%";
-            x.style.display = "block";
-        }
+        <div class="hero__stats" role="list" aria-label="Quick island notes">
+          <div class="stat" role="listitem">
+            <div class="stat__k">>30</div>
+            <div class="stat__v">beaches (entered into record)</div>
+          </div>
+          <div class="stat" role="listitem">
+            <div class="stat__k">∞</div>
+            <div class="stat__v">snacks (contested figure)</div>
+          </div>
+          <div class="stat" role="listitem">
+            <div class="stat__k">1</div>
+            <div class="stat__v">haunted lighthouse (denies all claims)</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="hero__card" aria-label="Featured folio">
+        <div class="card media-card">
+          <div class="media-card__art" aria-hidden="true">
+            <img style="width:300px" src="https://imgur.com/TVxsKAs.jpeg">
+          </div>
+          <div class="media-card__body">
+            <h2>Image Note: Dalakit Tree</h2>
+            <p>
+              The Dalakit tree is to Bisaya Island as the Guardian tree is to Gridania. It is home to magical beings, benevolent and malevolent. <a href="https://luwalhatidalisay.carrd.co/#malaya">Rumor has it, it can connect to other mystical trees.</a>
+            </p>
+            <div class="chips" aria-label="Tags">
+              <span class="chip">Spiritual</span>
+              <span class="chip">Other-worldly</span>
+              <span class="chip">Sacred</span>
+            </div>
+          </div>
+        </div>
 
-        // Close side navigation
-        function w3_close() {
-            document.getElementById("mySidebar").style.display = "none";
-        }
+        <div class="notice">
+          <strong>Marginal note:</strong> Tang and Sunny have traveled far from Bisaya Island for a cure to their ailing Dalakit tree.
+        </div>
+      </div>
+    </div>
+  </section>
 
-        // Used to toggle the menu on smaller screens when clicking on the menu button
-        function openNav() {
-            var x = document.getElementById("navDemo");
-            if (x.className.indexOf("w3-show") == -1) {
-                x.className += " w3-show";
-            } else {
-                x.className = x.className.replace(" w3-show", "");
-            }
-        }
-    </script>
+  <main id="main">
+    <!-- Residents -->
+    <section id="residents" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2>Notable Residents</h2>
+          <p>Noted here are common folk and folklore.</p>
+        </div>
 
+        <div class="grid grid--3">
+          <article class="card">
+            <h3>Civets</h3>
+            <p>It's easy to confuse a civet with a Miqo'te.</p>
+            <p>Civets are very lean and nimble with round ears and striped tails.</p>
+            <p>A certain scent radiates from them, but it's up to the person if it's a fragrance or stench.</p>
+            <p>Coffee cherries and sweets can be their favorite food.</p>
+          </article>
+
+          <article class="card">
+            <h3>Tamawo</h3>
+            <p>These are similar beings to Moogles or fae.</p>
+            <p>They can shapeshift and turn invisible.</p>
+            <p>Depending on the tamawo's mood, you may find flowers or rocks being thrown at you.</p>
+            <p>If somebody makes a tamawo upset, the person can get very sick.</p>
+          </article>
+
+          <article class="card">
+            <h3>Diwata</h3>
+            <p>As physical manifestations of <em>ginhawa</em>, diwata are quite powerful as they are petty. </p>
+            <p>Akin to Elementals in Gridania, diwata are representations of the land, sky, and sea. </p>
+            <p>While usually benevolent, disrespect to the environment can incur their wrath.</p>
+            <p>Diwata are appeased by offerings (mostly yummy snacks).</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Customs -->
+    <section id="customs" class="section section--alt">
+      <div class="container">
+        <div class="section__head">
+          <h2>Fun Facts & Customs</h2>
+          <p>Learn about Bisaya Island culture.</p>
+        </div>
+
+        <div class="grid grid--2">
+         
+          <div class="card">
+            <h3>Location</h3>
+
+            <p>Bisaya Island has a defense mechanism. <em>Ginhawa</em> becomes a veil for aether when outsiders attempt to seek or stumble near the island.</p>
+            <p>Compasses shift.</p> 
+            <p>Wind patterns move ships away.</p> 
+            <p>Charts don't align. </p>
+            <p>This has allowed Bisaya Island to be mainly unknown to the rest of the Ruby Sea.</p>
+
+            <div class="chips">
+              <span class="chip">Ginhawa</span>
+              <span class="chip">Seclusion</span>
+              <span class="chip">Calm</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Love and War</h3>
+
+            <p>Love and war are initiation rites toward adulthood for many Bisayans.</p> 
+            <p>To showcase success, Bisayans have tattoos that signify each conquest through battles of the heart and body.</p> 
+            <p>Tang and Sunny have tattoos on their hands and arms.
+            </p>
+            <div class="chips">
+              <span class="chip">Vanity</span>
+              <span class="chip">Relationships</span>
+              <span class="chip">Battle</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Hair</h3>
+
+            <p>Long hair represents beauty, status, and social dignity.</p> 
+            <p>Criminals get their hair cut by authorities.</p>
+            <p>When leaving Bisaya Island, Tang cut her hair as a symbol of leaving her old identity behind.</p>
+            <div class="chips">
+              <span class="chip">Symbolism</span>
+              <span class="chip">Ownership</span>
+              <span class="chip">Identity</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Babaylan</h3>
+
+            <p>A babaylan is chosen by the spirits to mediate with the spirit world and is given gifts of healing, foretelling, and insight.</p>
+            <p>Not only do they mediate with spirits, but they also offer conflict resolution.</p>
+            <p>Tang is a babaylan.</p>
+            <div class="chips">
+              <span class="chip">Shaman</span>
+              <span class="chip">Spirit Guide</span>
+              <span class="chip">Mystical</span>
+            </div>
+          </div>
+  
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Ginhawa -->
+    <section id="ginhawa" class="section section--alt">
+      <div class="container">
+        <div class="section__head">
+          <h2>On Ginhawa, and the Aether of the Isle</h2>
+          <p>A short glossary for those who would understand what the locals mean by “breath made well.”</p>
+        </div>
+
+        <div class="grid grid--2">
+          <article class="card">
+            <h3>What is Ginhawa?</h3>
+            <p>
+              <strong>Ginhawa</strong> is spoken of as <em>easy breath</em>: relief in the chest, the return of steadiness,
+              the feeling that one’s spirit is no longer clenched. It is not merely comfort,
+              it is the condition of being <em>unburdened enough to live properly</em>.
+            </p>
+            <ul class="bullets">
+              <li>In the body: calmer breathing, softened tension, restored appetite and sleep</li>
+              <li>In the spirit: safety, belonging, and “I can keep going”</li>
+              <li>In the community: harmony that is practical (food shared, laughter returned)</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>How it Relates to Aether</h3>
+            <p>
+              In the island’s account, <strong>aether</strong> is the world’s living substance: tide, wind, and will made tangible.
+              <strong>Ginhawa</strong> is how that substance is <em>felt</em> when it moves through a person cleanly: breath aligned,
+              emotions unknotted, and the self no longer “noisy.”
+            </p>
+            <p>
+              Thus, where aether is the <em>current</em>, ginhawa is the <em>ease of sailing</em>.
+              A place heavy with grief, fear, or conflict is said to have “thick air” (aether that drags).
+              A place tended with care, ritual, rest, laughter, and honest meals has “light air” (aether that carries).
+            </p>
+            <div class="chips">
+              <span class="chip">Breath</span>
+              <span class="chip">Balance</span>
+              <span class="chip">Aetherflow</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bios -->
+    <section id="bios" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2>Persons of Note</h2>
+          <p>Here are some friendly faces you may encounter on your travels.</p>
+        </div>
+
+        <div class="grid grid--2">
+          <!-- Tang (codex-style bio card) -->
+          <article class="card bio" aria-label="Tang biography card">
+            <div class="bio__top">
+              <div class="avatar" aria-hidden="true"><img class="avatar" src="https://imgur.com/2yJfJYv.gif"></div>
+                <h3 class="bio__name">Tang Moon</h3>
+                <p class="bio__role">Keeper of a Sari-Sari Store • Babaylan • Civet</p>
+            </div>
+
+            <p>
+              Tang keeps a small corner of commerce where the shelves are orderly, the gossip is not,
+              and the customer is always correct (until proven otherwise) currently in Ul'dah. She sells staples and sweets,
+              and (if one asks politely) charms so practical they become suspicious.
+            </p>
+            <p>Tang is Sunny's sister!</p>
+
+            <p class="tiny">
+              <strong>Marginal note:</strong>  If you leave with extra snacks you did not purchase,
+              it is customary to say thank you anyway.
+            </p>
+
+            <div class="chips" aria-label="Tang tags">
+              <span class="chip">Trade</span>
+              <span class="chip">Ritual</span>
+              <span class="chip">Good trouble</span>
+            </div>
+
+            <div class="bio__links">
+              <a class="btn btn--small" href="https://tang.Lexa.us" target="_blank" rel="noopener">
+                Read Tang’s Biography
+              </a>
+              <a class="btn btn--ghost btn--small" href="https://sari.Lexa.us">
+                Visit the Shop
+              </a>
+            </div>
+
+            <p class="tiny">
+              <strong>Footnote:</strong> As a babaylan, Tang offers blessings. When Tang says, “It is only a little blessing,” do not attempt to haggle.
+              The blessing will listen.
+            </p>
+          </article>
+
+          <!-- Sunny (codex-style bio card) -->
+          <article class="card bio" aria-label="Sunny biography card">
+            <div class="bio__top">
+              <div class="avatar avatar" aria-hidden="true"><img class="avatar" src="https://imgur.com/7hRs72G.gif"></div>
+                <h3 class="bio__name">Sanzang Sun</h3>
+                <p class="bio__role">Tamawo • Patron of mischief • Unbothered witness of everything</p>
+            </div>
+            <p>
+              Sunny appears as though she had always been there, and one is merely late in noticing.
+              She favors the old lanes, the sweet smoke of incense, and the exact moment a person realizes
+              they have been flirting with danger (or a bargain).
+            </p>
+            <p>Sunny is Tang's sister!</p>
+
+            <p class="tiny">
+              <strong>Marginal note:</strong> Sunny may offer “help.” Accepting it is safe, but understanding it is optional.
+            </p>
+
+            <div class="chips" aria-label="Sunny tags">
+              <span class="chip">Folklore</span>
+              <span class="chip">Guardian</span>
+              <span class="chip">Chaos (polite)</span>
+            </div>
+
+            <div class="bio__links">
+              <a class="btn btn--small" href="https://sun.Lexa.Us" target="_blank" rel="noopener">
+                Read Sunny’s Biography
+              </a>
+              <a class="btn btn--ghost btn--small" href="https://FFXIV.Lexa.us">
+                See her Scrapbook
+              </a>
+            </div>
+
+            <p class="tiny">
+              <strong>Footnote:</strong> As a tamawo, she is a master of glamours. Remember when she had short blue hair?
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hooks + OOC -->
+    <section id="hooks" class="section section--alt">
+      <div class="container">
+        <div class="section__head">
+          <h2>Hooks</h2>
+          <p>Let's RP!</p>
+        </div>
+
+        <div class="grid grid--2">
+          <div class="card">
+            <h3>What happens next?</h3>
+            <ul class="steps">
+              <li>Visit Tang's <a href="https://sari.lexa.us/">Sari-Sari Store</a> for deals!</li>
+              <li>You notice Tang's store has a variety of wares, including your personal objects...</li>
+              <li>Get haunted by Sunny!</li>
+              <li>Your establishment has been visited by the health inspector, which is just Sunny in a suit with a blank clipboard.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>OOC</h3>
+            <p class="muted">
+              Hi! You can call me Tang, Sunny, or Lexa!
+            </p>
+            <p class="muted">
+              I operate in the EST timezone. Looking for comedy, whimsical, and/or slice-of-life RP!
+            </p>
+            <p class="muted"> 
+            While I'm 21+, I prefer that my RP is PG-13.
+            </p>
+            <p>All art is done by me!</p>
+
+                <p>Discord: Lexa.us</p>
+                <p>Fighting game fan art <a href="https://saltamiya.com">saltamiya.com</a></p>
+                <p>Bsky: <a href="https://bsky.app/profile/lexausart.bsky.social">lexausart.bsky.social</a></p>
+
+              <p class="tiny">
+              My characters are inspired by Philippine mythologies, specifically Hiligaynon!
+            </p>
+              </div>
+        
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>
+        <strong>Bisaya Island</strong> • A chronicle for RP-friendly storytelling •
+        <span class="muted">This site is inspired by the Boxer Codex, a 16th century illustrated manuscript by Spain including pre-colonial Philippines.</span>
+      </p>
+      <p class="tiny">
+        © <span id="year"></span> Bisaya Island. The lighthouse denies everything.
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
-
 </html>
