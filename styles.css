@@ -245,9 +245,6 @@ h1{
 .bio__top{place-items:center; display:grid; gap:12px; margin-bottom:10px;}
 .avatar{
   width:300px;h display:grid;place-items:center;
-  border-radius: 14px; font-weight: 900;
-  background: rgba(47,111,107,.15);
-  border: 2px solid rgba(122,106,85,.55);
 }
 .bio__name{margin:0}
 .bio__role{margin:2px 0 0; color:var(--muted); font-size:.93rem}
